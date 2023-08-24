@@ -7,11 +7,13 @@ export default {
   theme: {
     screens: {
       sm: "375px",
+      md: "540px",
       lg: "1440px",
     },
     extend: {
       backgroundImage: {
-        mobileBackground: "url('./bg-intro-mobile.png')"
+        mobileBackground: "url('./bg-intro-mobile.png')",
+        desktopBackground: "url('./bg-intro-desktop.png')"
       },
       colors: {
         "primary-red": "hsl(0, 100%, 74%)",
