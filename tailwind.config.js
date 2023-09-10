@@ -12,8 +12,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        mobileBackground: "url('./bg-intro-mobile.png')",
-        desktopBackground: "url('./bg-intro-desktop.png')"
+        mobileBackground: "url('/bg-intro-mobile.png')",
+        desktopBackground: "url('/bg-intro-desktop.png')"
       },
       colors: {
         "primary-red": "hsl(0, 100%, 74%)",
