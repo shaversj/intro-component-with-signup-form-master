@@ -6,7 +6,7 @@ function App() {
 
     return (
         <>
-            <div
+            <main
                 className={"bg-mobileBackground bg-primary-red min-h-screen max-w-screen-sm mx-auto font-Poppins lg:bg-desktopBackground lg:max-w-screen-lg lg:flex lg:items-center lg:justify-center"}>
                 <Hero/>
 
@@ -14,7 +14,7 @@ function App() {
                     <Header/>
                     <Form/>
                 </div>
-            </div>
+            </main>
         </>
     )
 }
