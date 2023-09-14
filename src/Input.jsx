@@ -8,7 +8,7 @@ const Input = ({placeHolder, isRequired, inputFieldName, errorMessage, inputPatt
     return (<div className={formState.errors?.[inputFieldName] ? "" : "pb-5"}>
             <input
                 className={"focus:outline-none focus:border-accent-blue border border-outline-gray w-full placeholder-dark-blue placeholder-opacity-80 p-[.93rem] lg:p-[1.03rem] lg:pl-8 rounded-lg placeholder:font-medium placeholder:font-Poppins font-Poppins font-medium text-[14.5px]  placeholder:text-[14.5px]"}
-                placeholder={placeHolder} id={"firstName"} type={"text"} name={"first name"}
+                placeholder={placeHolder}
                 {...register(inputFieldName, {required: isRequired,...inputPattern && {pattern: inputPattern}})}
             />
             {formState.errors?.[inputFieldName] && (<>
